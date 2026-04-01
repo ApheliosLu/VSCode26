@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\1\CCC\VSCode\Exercises\CppVersion\src\CppVersion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\1\CCC\VSCode\Exercises\CppVersion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F3104831-DE1E-3720-8DD0-10AFC9E16DEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

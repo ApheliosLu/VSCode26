@@ -1,0 +1,28 @@
+CMakeFiles/main.dir/src/main.c.obj: \
+ E:\1\CC\VSCode\Exercises\2RandomNumber\src\main.c \
+ e:\mingw64\x86_64-w64-mingw32\include\stdio.h \
+ e:\mingw64\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
+ e:\mingw64\x86_64-w64-mingw32\include\corecrt.h \
+ e:\mingw64\x86_64-w64-mingw32\include\_mingw.h \
+ e:\mingw64\x86_64-w64-mingw32\include\_mingw_mac.h \
+ e:\mingw64\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ e:\mingw64\x86_64-w64-mingw32\include\vadefs.h \
+ e:\mingw64\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ e:\mingw64\x86_64-w64-mingw32\include\_mingw_off_t.h \
+ e:\mingw64\x86_64-w64-mingw32\include\swprintf.inl \
+ e:\mingw64\x86_64-w64-mingw32\include\sec_api\stdio_s.h \
+ e:\mingw64\x86_64-w64-mingw32\include\stdlib.h \
+ e:\mingw64\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
+ e:\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include-fixed\limits.h \
+ e:\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include-fixed\syslimits.h \
+ e:\mingw64\x86_64-w64-mingw32\include\limits.h \
+ e:\mingw64\x86_64-w64-mingw32\include\crtdefs.h \
+ e:\mingw64\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
+ e:\mingw64\x86_64-w64-mingw32\include\malloc.h \
+ e:\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\mm_malloc.h \
+ e:\mingw64\x86_64-w64-mingw32\include\errno.h \
+ e:\mingw64\x86_64-w64-mingw32\include\time.h \
+ e:\mingw64\x86_64-w64-mingw32\include\sys\timeb.h \
+ e:\mingw64\x86_64-w64-mingw32\include\sec_api\sys\timeb_s.h \
+ e:\mingw64\x86_64-w64-mingw32\include\_timeval.h \
+ e:\mingw64\x86_64-w64-mingw32\include\pthread_time.h

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "E:/1/CC/VSCode/Exercises/1loveheart/build",
+  "command": "E:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\src\\main.c.obj -c E:\\1\\CC\\VSCode\\Exercises\\1loveheart\\src\\main.c",
+  "file": "E:/1/CC/VSCode/Exercises/1loveheart/src/main.c",
+  "output": "CMakeFiles/main.dir/src/main.c.obj"
+}
+]

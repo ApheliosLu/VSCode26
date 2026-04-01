@@ -1,0 +1,10 @@
+^D:\1\CCC\VSCODE\EXERCISES\1LOVEHEART\BUILD\CMAKEFILES\535CDF6A5202FE1B3EBB05BE9B86A0AC\GENERATE.STAMP.RULE
+setlocal
+"D:\Microsoft Visual Studio\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/1/CCC/VSCode/Exercises/1loveheart -BD:/1/CCC/VSCode/Exercises/1loveheart/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/1/CCC/VSCode/Exercises/1loveheart/build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

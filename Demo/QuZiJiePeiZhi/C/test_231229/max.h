@@ -1,0 +1,1 @@
+int Max(int a, int b); // Max函数声明
