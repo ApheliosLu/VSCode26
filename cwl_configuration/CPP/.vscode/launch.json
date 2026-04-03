@@ -1,0 +1,49 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe", // 编译生成的可执行文件路径，在哪个cpp文件上右键选择调试，就会编译生成对应的exe文件，比如test.cpp会生成test.exe、hello.cpp会生成hello.exe
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\mingw64\\bin\\gdb.exe", // 调试器gdb.exe 的路径
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe 生成活动文件" // 预编译任务名称，需与 tasks.json 中的任务名称一致，注释掉这一行则不执行预编译任务，直接调试运行上一次编译生成的exe文件
+        },
+        // 以下为旧版配置，已注释掉 上方三个注释是新版launch.json需要更改的地方
+        // {
+        //     "name": "C/C++: g++.exe 生成和调试活动文件",
+        //     "type": "cppdbg",
+        //     "request": "launch",
+        //     "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        //     "args": [],
+        //     "stopAtEntry": false,
+        //     "cwd": "${fileDirname}",
+        //     "environment": [],
+        //     "externalConsole": false,
+        //     "MIMode": "gdb",
+        //     "miDebuggerPath": "D:\\mingw64\\bin\\gdb.exe",
+        //     "preLaunchTask": "C/C++: g++.exe 生成活动文件"
+        // }
+    ]
+}
