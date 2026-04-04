@@ -1,11 +1,31 @@
-cmake_minimum_required(VERSION 3.26)
-project(main) # 项目名称
+cmake_minimum_required(VERSION 4.0) # 1.指定最低兼容版本
 
-aux_source_directory(./src SRCS) # 添加当前目录(./src)下所有源文件，并命名为SRCS（相当于变量或宏，使用时会被./src中的源文件替换）
+project(1loveheart LANGUAGES CXX) # 2.定义项目名称和使用的语言   // 新项目时修改
 
-add_executable(${PROJECT_NAME} ${SRCS}) # 添加可执行文件即第一行的项目（名称），相当于add_executable(main ./src/main.c)
+set(CMAKE_CXX_STANDARD 17) # 3.设置C++标准为C++17
+set(CMAKE_CXX_STANDARD_REQUIRED ON) # 4.强制使用C++17标准
+set(CMAKE_CXX_EXTENSIONS OFF) # 5.禁止使用编译器特定的扩展,确保代码的可移植性
 
-# !!! cmake是一个构建工具，用于将目录下所有文件添加并链接为一个可执行文件
-# !!! CMakeLists.txt告诉cmake把src目录下所有源文件编译成一个可执行文件main.exe或main.sln
+# -------------------------- MSVC 专属兼容配置（新增） --------------------------
+if(MSVC)
+    # 1. 强制使用UTF-8编码，解决中文乱码（必加）
+    add_compile_options(/utf-8)
 
-# 使用cmake进行多文件编译时，可以通过直接单击选择下方编译器环境，进行g++或MSVC编译器的选择，注意：改变环境前需要先删除之前的build文件夹
+    # 2. 关闭MSVC的"不安全函数"警告（比如scanf、strcpy等）
+    add_definitions(-D_CRT_SECURE_NO_WARNINGS)
+
+    # 3. 关闭MSVC的非标准扩展警告
+    add_compile_options(/wd4996)
+
+    # 4. 运行库设置（可选，默认动态MD，如需静态MT可打开注释）
+    # set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>") # 静态MT/MTd
+    # set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL") # 动态MD/MDd（默认）
+endif()
+
+# -----------------------------------------------------------------------------
+set(PROJECT_SOURCES
+    src/main.cpp
+) # 6.定义源代码目录    // 新项目时修改
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin) # 7.让 exe 直接输出到项目根目录的 bin 文件夹
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCES}) # 8.添加可执行文件,指定源文件路径

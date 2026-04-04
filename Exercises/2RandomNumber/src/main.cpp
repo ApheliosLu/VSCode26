@@ -3,7 +3,7 @@
 #include <stdlib.h> //产生随机数，使用函数srand和rand
 #include <time.h>   //获取当前系统时间，使用函数time
 
-int main(void)
+int main01(void)
 {
     int i;
     // 2.创建随机数种子	time获取当前系统时间，将当前时间作为随机数种子
@@ -11,15 +11,16 @@ int main(void)
 
     // 3.生成随机数	对rand取模会得到一个范围的随机数
     for (i = 0; i < 100; i++)
-        printf("%d\n", rand() % 100); // 0~99之内的随机数；	即将从rand获取的随机数取模1000;	并通过printf函数打印出来
+        printf("%d\n", rand() % 100); // 0~99之内的随机数；	即将从rand获取的随机数取模100;	并通过printf函数打印出来
 
     system("pause");
     return 0;
 }
 
 // 小游戏：猜数字，随机一个1~100之间的数，通过键盘输入数据，根据数据输入进行提示
-int main01(void)
+int main(void)
 {
+    system("chcp 65001 > nul");
     int value; // 用户输入的数值
     int num;   // 随机数
     srand((unsigned int)time(NULL));
