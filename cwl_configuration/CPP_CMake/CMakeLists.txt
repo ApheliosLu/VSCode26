@@ -6,6 +6,23 @@ set(CMAKE_CXX_STANDARD 17) # 3.设置C++标准为C++17
 set(CMAKE_CXX_STANDARD_REQUIRED ON) # 4.强制使用C++17标准
 set(CMAKE_CXX_EXTENSIONS OFF) # 5.禁止使用编译器特定的扩展,确保代码的可移植性
 
+# -------------------------- MSVC 专属兼容配置（新增） --------------------------
+if(MSVC)
+    # 1. 强制使用UTF-8编码，解决中文乱码（必加）
+    add_compile_options(/utf-8)
+
+    # 2. 关闭MSVC的"不安全函数"警告（比如scanf、strcpy等）
+    add_definitions(-D_CRT_SECURE_NO_WARNINGS)
+
+    # 3. 关闭MSVC的非标准扩展警告
+    add_compile_options(/wd4996)
+
+    # 4. 运行库设置（可选，默认动态MD，如需静态MT可打开注释）
+    # set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>") # 静态MT/MTd
+    # set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL") # 动态MD/MDd（默认）
+endif()
+
+# -----------------------------------------------------------------------------
 set(PROJECT_SOURCES
     src/hello.cpp
     src/test.cpp
