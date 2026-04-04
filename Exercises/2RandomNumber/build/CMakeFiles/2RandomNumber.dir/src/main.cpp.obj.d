@@ -1,0 +1,35 @@
+CMakeFiles/2RandomNumber.dir/src/main.cpp.obj: \
+ D:\1\CCC\VSCode26\Exercises\2RandomNumber\src\main.cpp \
+ D:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ D:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ D:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ D:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ D:/mingw64/include/c++/15.2.0/stdlib.h \
+ D:/mingw64/include/c++/15.2.0/cstdlib \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
+ D:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ D:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ D:/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ D:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ D:/mingw64/x86_64-w64-mingw32/include/errno.h \
+ D:/mingw64/include/c++/15.2.0/bits/std_abs.h \
+ D:/mingw64/x86_64-w64-mingw32/include/time.h \
+ D:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ D:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ D:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ D:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ D:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h

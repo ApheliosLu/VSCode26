@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\1\CCC\VSCode26\Exercises\3CMakePractice\src\add.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\1\CCC\VSCode26\Exercises\3CMakePractice\src\subtract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\1\CCC\VSCode26\Exercises\3CMakePractice\src\multiply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\1\CCC\VSCode26\Exercises\3CMakePractice\src\divide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\1\CCC\VSCode26\Exercises\3CMakePractice\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\1\CCC\VSCode26\Exercises\3CMakePractice\include\calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\1\CCC\VSCode26\Exercises\3CMakePractice\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3859200C-F9F9-3857-A062-765B318838F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F3E7A6CC-DF13-3833-A902-D43C252384F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

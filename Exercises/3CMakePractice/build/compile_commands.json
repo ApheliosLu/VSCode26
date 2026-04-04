@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/3CMakePractice.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\3CMakePractice.dir\\src\\add.cpp.obj -c D:\\1\\CCC\\VSCode26\\Exercises\\3CMakePractice\\src\\add.cpp",
+  "file": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/src/add.cpp",
+  "output": "CMakeFiles/3CMakePractice.dir/src/add.cpp.obj"
+},
+{
+  "directory": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/3CMakePractice.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\3CMakePractice.dir\\src\\subtract.cpp.obj -c D:\\1\\CCC\\VSCode26\\Exercises\\3CMakePractice\\src\\subtract.cpp",
+  "file": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/src/subtract.cpp",
+  "output": "CMakeFiles/3CMakePractice.dir/src/subtract.cpp.obj"
+},
+{
+  "directory": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/3CMakePractice.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\3CMakePractice.dir\\src\\multiply.cpp.obj -c D:\\1\\CCC\\VSCode26\\Exercises\\3CMakePractice\\src\\multiply.cpp",
+  "file": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/src/multiply.cpp",
+  "output": "CMakeFiles/3CMakePractice.dir/src/multiply.cpp.obj"
+},
+{
+  "directory": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/3CMakePractice.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\3CMakePractice.dir\\src\\divide.cpp.obj -c D:\\1\\CCC\\VSCode26\\Exercises\\3CMakePractice\\src\\divide.cpp",
+  "file": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/src/divide.cpp",
+  "output": "CMakeFiles/3CMakePractice.dir/src/divide.cpp.obj"
+},
+{
+  "directory": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/3CMakePractice.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\3CMakePractice.dir\\src\\main.cpp.obj -c D:\\1\\CCC\\VSCode26\\Exercises\\3CMakePractice\\src\\main.cpp",
+  "file": "D:/1/CCC/VSCode26/Exercises/3CMakePractice/src/main.cpp",
+  "output": "CMakeFiles/3CMakePractice.dir/src/main.cpp.obj"
+}
+]

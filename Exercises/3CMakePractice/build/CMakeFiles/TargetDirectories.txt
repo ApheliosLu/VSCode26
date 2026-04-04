@@ -1,0 +1,3 @@
+D:/1/CCC/VSCode26/Exercises/3CMakePractice/build/CMakeFiles/3CMakePractice.dir
+D:/1/CCC/VSCode26/Exercises/3CMakePractice/build/CMakeFiles/ALL_BUILD.dir
+D:/1/CCC/VSCode26/Exercises/3CMakePractice/build/CMakeFiles/ZERO_CHECK.dir

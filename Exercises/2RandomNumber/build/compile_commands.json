@@ -1,8 +1,8 @@
 [
 {
-  "directory": "E:/1/CC/VSCode/Exercises/2RandomNumber/build",
-  "command": "E:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\main.dir\\src\\main.c.obj -c E:\\1\\CC\\VSCode\\Exercises\\2RandomNumber\\src\\main.c",
-  "file": "E:/1/CC/VSCode/Exercises/2RandomNumber/src/main.c",
-  "output": "CMakeFiles/main.dir/src/main.c.obj"
+  "directory": "D:/1/CCC/VSCode26/Exercises/2RandomNumber/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\2RandomNumber.dir\\src\\main.cpp.obj -c D:\\1\\CCC\\VSCode26\\Exercises\\2RandomNumber\\src\\main.cpp",
+  "file": "D:/1/CCC/VSCode26/Exercises/2RandomNumber/src/main.cpp",
+  "output": "CMakeFiles/2RandomNumber.dir/src/main.cpp.obj"
 }
 ]

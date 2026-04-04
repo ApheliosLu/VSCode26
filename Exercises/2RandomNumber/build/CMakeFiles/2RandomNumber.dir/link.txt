@@ -1,0 +1,3 @@
+D:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\2RandomNumber.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\2RandomNumber.dir/objects.a @CMakeFiles\2RandomNumber.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\2RandomNumber.dir/objects.a -Wl,--no-whole-archive -o D:\1\CCC\VSCode26\Exercises\2RandomNumber\bin\2RandomNumber.exe -Wl,--out-implib,lib2RandomNumber.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\2RandomNumber.dir\linkLibs.rsp

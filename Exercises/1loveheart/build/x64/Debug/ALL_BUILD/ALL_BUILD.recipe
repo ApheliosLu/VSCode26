@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\1\CCC\VSCode\Exercises\1loveheart\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\1\CCC\VSCode26\Exercises\1loveheart\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\1\CCC\VSCode\Exercises\1loveheart\build\Debug\main.exe</FullPath>
+      <FullPath>D:\1\CCC\VSCode26\Exercises\1loveheart\bin\Debug\1loveheart.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\1\CCC\VSCode\Exercises\1loveheart\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>D:\1\CCC\VSCode26\Exercises\1loveheart\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
