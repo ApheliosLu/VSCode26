@@ -1,0 +1,3 @@
+D:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\3CMakePractice.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\3CMakePractice.dir/objects.a @CMakeFiles\3CMakePractice.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\3CMakePractice.dir/objects.a -Wl,--no-whole-archive -o D:\1\CCC\VSCode26\Exercises\3CMakePractice\bin\3CMakePractice.exe -Wl,--out-implib,lib3CMakePractice.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\3CMakePractice.dir\linkLibs.rsp

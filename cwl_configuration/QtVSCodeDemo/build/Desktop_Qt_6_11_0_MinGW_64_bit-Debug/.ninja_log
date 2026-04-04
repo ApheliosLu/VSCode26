@@ -1,0 +1,9 @@
+# ninja log v7
+10	646	7970064189415640	QtVSCodeDemo_autogen/timestamp	812d6bd3e3008fa3
+10	646	7970064189415640	QtVSCodeDemo_autogen/mocs_compilation.cpp	812d6bd3e3008fa3
+10	646	7970064189415640	D:/1/CCC/Qt/QtVSCodeDemo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/QtVSCodeDemo_autogen/timestamp	812d6bd3e3008fa3
+10	646	7970064189415640	D:/1/CCC/Qt/QtVSCodeDemo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/QtVSCodeDemo_autogen/mocs_compilation.cpp	812d6bd3e3008fa3
+650	1881	7970064190079744	CMakeFiles/QtVSCodeDemo.dir/QtVSCodeDemo_autogen/mocs_compilation.cpp.obj	64dfadb91aade16
+663	1942	7970064190240087	CMakeFiles/QtVSCodeDemo.dir/main.cpp.obj	a68c52df22f25a79
+678	1976	7970064190397742	CMakeFiles/QtVSCodeDemo.dir/mainwindow.cpp.obj	c546baf941c59b0
+1976	2161	7970064203387113	QtVSCodeDemo.exe	91b8405bfe1c596a

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+744093351ea297d0d33125cd6846915d CMakeFiles/QtVSCodeDemo_autogen
+cea3d96199e42e1e66dbad99f00b9ca7 QtVSCodeDemo_autogen/timestamp

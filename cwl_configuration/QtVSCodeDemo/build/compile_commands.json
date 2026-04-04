@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/1/CCC/Qt/QtVSCodeDemo/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QtVSCodeDemo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\QtVSCodeDemo.dir\\QtVSCodeDemo_autogen\\mocs_compilation.cpp.obj -c D:\\1\\CCC\\Qt\\QtVSCodeDemo\\build\\QtVSCodeDemo_autogen\\mocs_compilation.cpp",
+  "file": "D:/1/CCC/Qt/QtVSCodeDemo/build/QtVSCodeDemo_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/QtVSCodeDemo.dir/QtVSCodeDemo_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/1/CCC/Qt/QtVSCodeDemo/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QtVSCodeDemo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\QtVSCodeDemo.dir\\main.cpp.obj -c D:\\1\\CCC\\Qt\\QtVSCodeDemo\\main.cpp",
+  "file": "D:/1/CCC/Qt/QtVSCodeDemo/main.cpp",
+  "output": "CMakeFiles/QtVSCodeDemo.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/1/CCC/Qt/QtVSCodeDemo/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/QtVSCodeDemo.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\QtVSCodeDemo.dir\\mainwindow.cpp.obj -c D:\\1\\CCC\\Qt\\QtVSCodeDemo\\mainwindow.cpp",
+  "file": "D:/1/CCC/Qt/QtVSCodeDemo/mainwindow.cpp",
+  "output": "CMakeFiles/QtVSCodeDemo.dir/mainwindow.cpp.obj"
+}
+]
